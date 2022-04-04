@@ -1,9 +1,10 @@
 import React from 'react';
+import './NotFound.css'
 
 const NotFount = () => {
     return (
-        <div>
-            <h1>This is 404</h1>
+        <div className='not-found'>
+            <img src="404.jpg" alt="" />
         </div>
     );
 };

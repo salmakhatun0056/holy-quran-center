@@ -1,0 +1,10 @@
+.chart-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px;
+}
+
+.chart-container h2 {
+    text-align: center;
+    color: rgb(12, 12, 124);
+}
