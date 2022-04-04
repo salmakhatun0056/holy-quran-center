@@ -1,13 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Pie, PieChart, Tooltip } from 'recharts';
+import useChart from '../../hooks/useChart';
 
 const MyPieChart = () => {
-    const [data, setData] = useState([])
-    useEffect(() => {
-        fetch('data.json')
-            .then(res => res.json())
-            .then(data => setData(data))
-    }, [])
+    const [data, setData] = useChart()
     return (
         <PieChart width={600} height={250}>
             <Pie data={data} dataKey="sell" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />

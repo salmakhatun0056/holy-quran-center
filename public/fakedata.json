@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1001,
+        "name": "Lenovo",
+        "price": 50000,
+        "img": "https://images.pexels.com/photos/36704/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    },
+    {
+        "id": 1002,
+        "name": "Walton",
+        "price": 60000,
+        "img": "https://images.pexels.com/photos/7249751/pexels-photo-7249751.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    },
+    {
+        "id": 1003,
+        "name": "Lenovo",
+        "price": 45000,
+        "img": "https://images.pexels.com/photos/10336727/pexels-photo-10336727.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    },
+    {
+        "id": 1004,
+        "name": "Hp",
+        "price": 65000,
+        "img": "https://images.pexels.com/photos/7249367/pexels-photo-7249367.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    },
+    {
+        "id": 1005,
+        "name": "Mac",
+        "price": 90000,
+        "img": "https://images.pexels.com/photos/8522577/pexels-photo-8522577.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    },
+    {
+        "id": 1006,
+        "name": "node-Book",
+        "price": 85000,
+        "img": "https://images.pexels.com/photos/7300897/pexels-photo-7300897.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    }
+]
