@@ -9,6 +9,8 @@ import Header from './Header';
 
 
 
+
+
 function App() {
   return (
     <div className="App">
@@ -21,6 +23,8 @@ function App() {
         <Route path='about' element={<About></About>}></Route>
         <Route path='*' element={<NotFount></NotFount>}></Route>
       </Routes>
+
+
     </div>
   );
 }

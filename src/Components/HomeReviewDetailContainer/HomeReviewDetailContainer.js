@@ -1,23 +1,19 @@
 import React from 'react';
 import useFakeData from '../../hooks/useFakeData';
-import ReviewDetail from '../ReviewDetail/ReviewDetail';
-import './ReviewDetailContainer.css'
-import '../../hooks/useReviewsCss.css'
+import HomeReviewDetail from '../HomeReviewDetail/HomeReviewDetail';
 
-const ReviewsDetailContainer = () => {
+const HomeReviewDetailContainer = () => {
     const [reviews, setReview] = useFakeData()
     return (
         <div className='ReviewsDetailContainer'>
             {
-                reviews.map(review => <ReviewDetail
+                reviews.slice(0, 3).map(review => <HomeReviewDetail
                     key={review.id}
                     review={review}
-                ></ReviewDetail>)
+                ></HomeReviewDetail>)
             }
-
         </div>
     );
 };
 
-
-export default ReviewsDetailContainer;
+export default HomeReviewDetailContainer;

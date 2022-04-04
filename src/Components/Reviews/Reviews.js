@@ -1,6 +1,7 @@
 import React from 'react';
 import ReviewsDetailContainer from '../ReviewsDetailContainer/ReviewsDetailContainer';
 
+
 const Reviews = () => {
     return (
         <div>

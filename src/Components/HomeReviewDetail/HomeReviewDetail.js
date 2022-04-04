@@ -1,9 +1,8 @@
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import './ReviewDetail.css'
 
-const ReviewDetail = (props) => {
+const HomeReviewDetail = (props) => {
     const { name, img, review } = props.review
     return (
         <div className='review-detail-container'>
@@ -23,6 +22,6 @@ const ReviewDetail = (props) => {
             </div>
         </div>
     );
-};
+};;
 
-export default ReviewDetail;
+export default HomeReviewDetail;

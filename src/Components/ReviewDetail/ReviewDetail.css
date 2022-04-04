@@ -1,0 +1,19 @@
+.review-detail-container {
+    display: grid;
+    border: 2px solid rgb(12, 12, 124);
+    width: 50%;
+    grid-template-columns: 1fr 2fr;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.review-detail-container img {
+    width: 200px;
+    height: 150px;
+}
+
+.star-icon {
+    color: orange;
+}
