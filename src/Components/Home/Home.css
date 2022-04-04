@@ -17,3 +17,21 @@
 .title-style {
     color: rgb(2, 2, 152);
 }
+
+.all-reviews-link {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.all-reviews-link button {
+    padding: 10px 25px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(2, 2, 152);
+    font-weight: 700;
+    padding-top: 20px;
+}
