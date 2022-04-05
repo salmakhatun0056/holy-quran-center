@@ -12,7 +12,7 @@ const Home = () => {
             <main className="home-container">
                 <div className="home-detail">
                     <h1 className='home-title'>Your best choice is the<br /><span className='title-style'>HOLY QURAN</span></h1>
-                    <p>Quran education is essential to keep your life beautiful and full of peace. Because there is a path of light in the Quran.Our purpose is to bring everyone to the path of this light. Come We all pray and read the Qur'an every day.</p>
+                    <p>Quran education is essential to keep your life beautiful and full of peace. Because there is a path of light in the Quran. Our purpose is to bring everyone to the path of this light. Come We all pray and read the Quran every day.</p>
                 </div>
                 <div className="home-picture">
                     <img src="photo-1.jpg" alt="" />
