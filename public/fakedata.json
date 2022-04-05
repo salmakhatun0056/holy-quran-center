@@ -1,38 +1,38 @@
 [
     {
         "id": 1001,
-        "name": "Alifa",
+        "name": "ALIFA",
         "review": "This is  very good product. I'm fascinated.",
         "img": "https://images.pexels.com/photos/36704/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260"
     },
     {
         "id": 1002,
-        "name": "Priyanka",
+        "name": "PRIYANKA",
         "review": "Wow this is  very nice product. I'm so happy.",
         "img": "https://images.pexels.com/photos/7249751/pexels-photo-7249751.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
     },
     {
         "id": 1003,
-        "name": "Laboni",
-        "review": "This is a very good product. I'm fascinated.",
+        "name": "LABONI",
+        "review": "I have benefited a lot from your service.Thank you very much for your servicing.",
         "img": "https://images.pexels.com/photos/10336727/pexels-photo-10336727.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
     },
     {
         "id": 1004,
-        "name": "Joti",
-        "review": "This is a very good product. I'm fascinated.",
+        "name": "JOTI",
+        "review": "The quality of your products is really great.Everyone should sell this product.",
         "img": "https://images.pexels.com/photos/7249367/pexels-photo-7249367.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
     },
     {
         "id": 1005,
-        "name": "Bithi",
-        "review": "This is a very good product. I'm fascinated.",
+        "name": "BITHI",
+        "review": "Your Serving Person Are Very Honest. ",
         "img": "https://images.pexels.com/photos/8522577/pexels-photo-8522577.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
     },
     {
         "id": 1006,
-        "name": "Eti",
-        "review": "This is a very good product. I'm fascinated.",
+        "name": "ETI",
+        "review": "Your initiative goal really deserves praise.everyone respect for your initiative.",
         "img": "https://images.pexels.com/photos/7300897/pexels-photo-7300897.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
     }
 ]

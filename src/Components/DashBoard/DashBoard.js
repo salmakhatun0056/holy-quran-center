@@ -35,7 +35,7 @@ const DashBoard = () => {
                 <h2>Investment vs Revenue</h2>
                 <PieChart width={600} height={300}>
                     <Pie data={data} dataKey="sell" nameKey="month" cx="50%" cy="50%" outerRadius={80} fill="#8884d8" />
-
+                    <Tooltip></Tooltip>
                     <Pie data={data} dataKey="sell" nameKey="month" cx="50%" cy="50%" innerRadius={95} outerRadius={120} fill="#82ca9d" label />
                 </PieChart>
             </div>

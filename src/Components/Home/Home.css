@@ -26,11 +26,12 @@
 }
 
 .title-style {
-    color: rgb(2, 2, 152);
+    color: rgb(12, 12, 124);
 }
 
 .home-reviews-title {
     text-align: center;
+    color: rgb(12, 12, 124)
 }
 
 .see-all-reviews-link {
@@ -43,7 +44,7 @@
 .see-all-reviews-link button {
     padding: 10px 25px;
     border: none;
-    background-color: blue;
+    background-color: rgb(12, 12, 124);
     border-radius: 5px;
 }
 
