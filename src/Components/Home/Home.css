@@ -1,7 +1,17 @@
 .home-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 90%;
+}
+
+.home-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .home-container img {
@@ -12,19 +22,20 @@
 .home-title {
     font-weight: 900;
     font-size: 50px;
+    margin: 0;
 }
 
 .title-style {
     color: rgb(2, 2, 152);
 }
 
-.all-reviews-link {
+.see-all-reviews-link {
     margin-top: 20px;
     text-align: center;
 
 }
 
-.all-reviews-link button {
+.see-all-reviews-link button {
     padding: 10px 25px;
     border: none;
 }
