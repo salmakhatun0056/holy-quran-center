@@ -6,7 +6,7 @@
 .blogs-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 3rem;
     width: 90%;
     margin: auto;
 
@@ -15,4 +15,10 @@
 .blogs-container div {
     border: 2px solid rgb(12, 12, 124);
     text-align: center;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.blogs-container div h3 {
+    color: rgb(12, 12, 124);
 }
