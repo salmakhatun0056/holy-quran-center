@@ -1,9 +1,15 @@
+import { useEffect, useState } from 'react';
 import { Bar, BarChart, Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
-import useChart from '../../hooks/useChart';
+
 import './DashBoard.css'
 
 const DashBoard = () => {
-    const [data, setData] = useChart()
+    const [data, setData] = useState([])
+    useEffect(() => {
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => setData(data))
+    }, [])
 
     return (
         <div className='chart-container'>

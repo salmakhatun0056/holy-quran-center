@@ -1,8 +1,8 @@
 import React from 'react';
 import useFakeData from '../../hooks/useFakeData';
-import ReviewDetail from '../ReviewDetail/ReviewDetail';
+import ReviewDetail from '../ReviewDetail/ReviewDetail'
 import './ReviewDetailContainer.css'
-import '../../hooks/useReviewsCss.css'
+
 
 const ReviewsDetailContainer = () => {
     const [reviews, setReview] = useFakeData()
