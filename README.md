@@ -1,5 +1,5 @@
 # HOLY QURAN CENTER
-[Netlify website]('https://elegant-klepon-dbfbaa.netlify.app/')
+[Netlify website](https://elegant-klepon-dbfbaa.netlify.app/)
 
 * Many of the components have been used
 * Destructive has been used
